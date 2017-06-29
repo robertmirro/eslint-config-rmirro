@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-rmirro",
+  "version": "1.0.0",
+  "description": "JS Style - ESLint Shareable Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmirro/eslint-config-rmirro.git"
+  },
+  "author": "RJM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertmirro/eslint-config-rmirro/issues"
+  },
+  "homepage": "https://github.com/robertmirro/eslint-config-rmirro#readme",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-protractor": "^1.38.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
