@@ -13,13 +13,17 @@
         "__DEV__": false,
         "requestAnimationFrame": false,
         "angular": true,
-        "inject": true
+        "inject": true,
+        "React": true,
+        "ReactDOM": true,
+        "PropTypes": true
     },
 
     "plugins": [
         "react",
         "flowtype",
-        "standard"
+        "standard",
+        "html"
     ],
 
     "extends": ["standard", "standard-react"],
@@ -33,6 +37,8 @@
         "semi": ["error", "always"],
         "indent": ["error", 4],
         "space-before-function-paren": ["error", "never"],
-        "quote-props": ["error", "as-needed"]
+        "quote-props": ["error", "as-needed"],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4]
     }
 }
